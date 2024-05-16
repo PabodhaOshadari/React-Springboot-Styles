@@ -1,0 +1,26 @@
+.footer {
+  background-color: #999b9c;
+  color: #f7fafb;
+  padding: 20px 50px; /* Adjust padding to increase width and height */
+  position: fixed;
+  bottom: 0px; /* Move the footer 50px from the bottom */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Dark mode styles for body */
+.dark-mode {
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+}

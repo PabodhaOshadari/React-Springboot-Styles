@@ -1,0 +1,17 @@
+.emoji-animation {
+    font-size: 24px; /* Adjust the size of emojis */
+    position: fixed; /* Position the emojis relative to the viewport */
+    top: 50%; /* Position the emojis vertically at the center */
+    left: 50%; /* Position the emojis horizontally at the center */
+    transform: translate(-50%, -50%); /* Center the emojis exactly */
+    animation: moveEmojis 2s ease-in-out infinite; /* Apply animation for movement */
+}
+
+@keyframes moveEmojis {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotate(0deg); /* Initial and final position */
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(360deg); /* Rotate the emojis */
+    }
+}

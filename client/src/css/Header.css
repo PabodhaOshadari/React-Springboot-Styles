@@ -1,0 +1,89 @@
+.header {
+  background-color: #d9e2e9;
+  color: #fff;
+  padding: 20px 50px; /* Adjust padding to increase width and height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px; /* Increase logo width */
+  height: 60px; /* Increase logo height */
+  margin-right: 20px;
+}
+
+.share img {
+  width: 20px;
+  height: 20px;
+}
+
+.notification img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.logo span {
+  font-size: 2rem; /* Increase font size */
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin-left: 20px; /* Adjust margin to move links closer to the logo */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.profile img {
+  width: 50px; /* Increase profile image width */
+  height: 50px; /* Increase profile image height */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.login-button,
+.register-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px; /* Increase button padding */
+  cursor: pointer;
+  float: right 10px;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #fff;
+  color: #494141;
+}
+
+.date-time-box {
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}

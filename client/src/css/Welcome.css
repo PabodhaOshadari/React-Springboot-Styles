@@ -1,0 +1,82 @@
+/* Welcome.css */
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the background image stays behind other content */
+  background-image: url('C:\Users\Administrator\Desktop\combank\client\src\images\bankbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px); /* Apply a blur effect to the background image */
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto; /* Center the container horizontally */
+  margin-left: 280px; /* Adjust the left margin as needed */
+  position: relative; /* Ensure the container is positioned relative to the body */
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  position: relative; /* Required for absolute positioning of the pseudo-element */
+}
+
+/* Pseudo-element for creating the blue tap pattern */
+h1::after {
+  content: attr(data-text); /* Use the data-text attribute for text content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: transparent;
+  animation: tap-move 3s linear infinite;
+}
+
+/* Keyframe animation for tap movement */
+@keyframes tap-move {
+  0% {
+    transform: translateX(0);
+    color: transparent;
+  }
+  50% {
+    transform: translateX(100%);
+    color: #50769e; /* Blue color for the tap pattern */
+  }
+  100% {
+    transform: translateX(0);
+    color: transparent;
+  }
+}
+
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #458846;
+  color: rgb(193, 206, 200);
+  border-radius: 5px;
+  width: 150px; /* Set a fixed width for all buttons */
+  height: 40px; /* Set a fixed height for all buttons */
+}
+
+.button:hover {
+  background-color: #abc0d8;
+}
+
+
+
+.transparent-box {
+  display: inline-block; /* Display as inline-block to fit content size */
+  background-color: rgba(215, 224, 227, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}

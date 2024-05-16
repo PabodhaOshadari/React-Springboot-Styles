@@ -1,0 +1,100 @@
+/* Style for the dashboard container */
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the user count */
+  .user-count {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the view button */
+  .view-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* userlist.css */
+
+  .dashboard-container {
+    max-width: 3000%; /* Adjust the width as needed */
+    min-height: 500px; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the dashboard horizontally */
+    padding: 375px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+.dashboard-container h2 {
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+}
+
+.dashboard-container h3 {
+  margin-top: 20px;
+  text-align: center; /* Center the user count */
+}
+
+.dashboard-container .bar-container {
+  margin-bottom: 20px;
+}
+
+.dashboard-container .view-button,
+.dashboard-container .pdf-download-link {
+  margin-top: 20px;
+  display: block; /* Make buttons display as block elements */
+  width: 100%; /* Make buttons take full width */
+  padding: 10px; /* Add padding to buttons */
+  background-color: #74b1f3; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius to buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.dashboard-container .view-button:hover,
+.dashboard-container .pdf-download-link:hover {
+  background-color: #0056b3; /* Change button background color on hover */
+}
+
+.user-details-table {    
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-details-table th,
+.user-details-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-details-table th {
+  background-color: #f2f2f2;
+  color: blue;
+  text-align: left;
+}
+
+.user-details-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-details-table tr:hover {
+  background-color: #ddd;
+}
+
+
+ 
+  
